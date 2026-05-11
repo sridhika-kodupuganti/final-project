@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<body>
+    <header>
+        <h1> STYLEUP STORE</h1>
+        <img  class="img1" src="https://content.jdmagicbox.com/v2/comp/hyderabad/r1/040pxx40.xx40.230401160432.z3r1/catalogue/style-up-forest-dept-colony-hyderabad-readymade-garment-retailers-k8i9kw91oc.jpg" alt="store">
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search by title...">
+            
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+            </select>
+
+            <select id="sort-filter">
+                <option value="default">Sort by Price</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+            </select>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <div id="loading">Loading...</div>
+        <div id="product-grid"></div>
+    </main>
+    <script src="./task5.js"></script>
+</body>
+</html>
